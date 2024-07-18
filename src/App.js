@@ -11,7 +11,6 @@ function App() {
   // useCallback() we will use useCallback hook that lets us cache the function definition between re-renders
   // It will take a fun and dependency as a argument
 
-  // checking if code is actually pushing over git or not
 
   const passwordGenerator = useCallback(() => {
     let pass = "";
@@ -41,9 +40,9 @@ function App() {
 
   return (
     <>
-      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange bg-gray-500">
-        <h1 className="text-white text-center">Password Generator</h1>
-        <div className="flex shadow rounded-lg overflow-hidden mb-4 py-8">
+      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 bg-gray-500">
+        <h1 className="text-white text-center py-4">Password Generator</h1>
+        <div className="flex shadow rounded-lg overflow-hidden mb-4 ">
           <input
             type="text"
             value={password}
