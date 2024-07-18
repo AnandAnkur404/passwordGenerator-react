@@ -1,13 +1,16 @@
-Password generator source code
+Password generator 
 
-Generating password dependency
+Run the app using command line
+    npm start   
 
-    length
-    number allowed
-    charecter allowed
+Generating password 
+    
+    Dependency
+        length
+        number allowed
+        charecter allowed
 
 Hook
-
     useState
     useCallback
     useRef

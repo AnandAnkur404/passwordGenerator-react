@@ -11,6 +11,8 @@ function App() {
   // useCallback() we will use useCallback hook that lets us cache the function definition between re-renders
   // It will take a fun and dependency as a argument
 
+  // checking if code is actually pushing over git or not
+
   const passwordGenerator = useCallback(() => {
     let pass = "";
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
